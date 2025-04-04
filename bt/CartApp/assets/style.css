@@ -1,0 +1,93 @@
+/* Reset mặc định */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container chính */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Tiêu đề */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Bảng sản phẩm & giỏ hàng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #007BFF;
+    color: white;
+}
+
+td {
+    background: #fff;
+}
+
+/* Nút bấm */
+button, a.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button {
+    background: #28a745;
+}
+
+button:hover {
+    background: #218838;
+}
+
+a.btn {
+    background: #007BFF;
+}
+
+a.btn:hover {
+    background: #0056b3;
+}
+
+/* Nút xóa */
+a.delete {
+    background: #dc3545;
+}
+
+a.delete:hover {
+    background: #c82333;
+}
+
+/* Form input */
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}
